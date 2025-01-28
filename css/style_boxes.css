@@ -1,0 +1,17 @@
+div{height: 100px;
+    width: 100px;    
+}
+
+.one{border: solid 10px;
+    background-color: #5B913B;
+}
+
+.two{border: solid 20px;
+    background-color: blueviolet;
+    margin-left: 120px;
+}
+
+.three{border: solid 10px;
+    background-color: blue;
+    margin-left: 260px;
+}

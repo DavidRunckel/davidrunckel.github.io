@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    background-color: #EEE3CB;
+    margin: 0px;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #B7C4CF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav p, nav a {
+    color: #000;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #967E76;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #EEE3CB;
+    text-align: center;
+}
+
+.splash h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #967E76;
+}
+
+.splash img {
+    border-radius: 50%;
+}
+
+.splash p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: #967E76;
+    border-width: .25em;
+}
+
+/* Sections */
+section {
+    background-color: #EEE3CB;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #967E76;
+    padding: 10px;
+}
+
+/* Paragraph Styles */
+section p {
+    padding: 10px;
+    font-size: large;
+}
+
+/* link styles */
+section a {
+    color: #000;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    font-family: "Bebas Neue", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+dl {
+    display: grid;
+    padding: 10px;
+}
+
+dl dt{
+    font-size: large;
+}
+
+dl dd{
+    grid-column-start: 2;
+    text-align: right;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 5px 5px 0 #000;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.card img {
+    height: auto;  
+}
+
+.card h3 {
+    font-size: medium;
+    text-align: center;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form {
+    gap: 10px;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form input, form textarea {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form input:focus, form textarea:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+form button {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form button:hover {
+    color: #967E76;
+}
+
+.contact-text {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Thank You Page Styles */
+.thankyou {
+    text-align: center;
+}
+
+.thankyou-img {
+    border: #000 solid;
+    border-radius: 10%;
+    
+}
+
+.thankyou-footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
